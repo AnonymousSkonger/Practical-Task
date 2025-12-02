@@ -6,44 +6,128 @@
     <title>Document</title>
     <style>
         body{
-            font-family: Arial, sans-serif;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        } 
+        header{
+            text-align: center;
+            font-size: 15px;
+            font-weight: bold;
+            background-color: navy;
+            color: white;
+            padding: 20px;
+        }
+        .main-section{
+            margin: 30px;
+        }
+        ol{
+            color: navy;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        #img1, #img2, #img3, #img4{
+            height: 170px;
+            width: 20%;
+            margin: 5px;
+            border-radius: 10px;
+        }
+        .images{
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        table{
+            width: 100%;
         }
         table, th, td {
             border: 2px solid black;
             border-collapse: collapse;
             padding: 5px;
         }
-        table{
-            width:750px
-        }
         th{
             background-color: gold;
+        }
+        .section1{
+            width: 30%;
+        }
+        .section2{
+            width: 70%;
+        }
+        .NOL{
+            color: black;
+            font-size: 16px;
+            font-weight: normal;
         }
     </style>
 </head>
 <body>
-    <table>
-        <tr>
-            <th>Category</th>
-            <th>Tools & Technologies</th>
-        </tr>
-        <tr>
-            <td>Language</td>
-            <td>HTML, CSS, JavaScript, Python, SQL</td>
-        </tr>
-        <tr>
-            <td>Frameworks</td>
-            <td>Django, Flask</td>
-        </tr>
-        <tr>
-            <td>Operating System</td>
-            <td>Kali Linux OS</td>
-        </tr>
-        <tr>
-            <td>Tools</td>
-            <td>VS Code, Git/GitHub, MySQL.SQLite, Chrome/Firefox</td>
-        </tr>
-    </table>
+    <header>
+        <img src="https://do4sa.org/wp-content/uploads/2021/07/Make-me-a-coderw-02.png" alt="make me a coder/>">
+        <h2>Developing youth with the coding skills for the IT industry.</h2>
+    </header>
+    <div class="main-section">
+        <ol>
+            <li>Project Overview</li>
+        </ol>
+        <p>"Make Me A Coder" is a digital empowerment initiative 
+            aimed at training youth and aspiring developers in 
+            full-stack web development. The program equips 
+            participants with 
+            <br>practical skills in programming, database management,
+            and modern web technologies.</p>
+        <div class="images">
+            <img id="img1" src="images/pic1.jpeg" alt="img 1">
+            <img id="img2" src="images/pic2.jpeg" alt="img 2">
+            <img id="img3" src="images/pic3.jpeg" alt="img 3">
+            <img id="img4" src="images/pic4.jpeg" alt="img 4">
+        </div>
+        <ol start="2">
+            <li>Technical Stack</li>
+        </ol>
+            <table>
+                <tr>
+                    <th class="section1">Category</th>
+                    <th class="section2">Tools & Technologies</th>
+                </tr>
+                <tr>
+                    <td>Language</td>
+                    <td>HTML, CSS, JavaScript, Python, SQL</td>
+                </tr>
+                <tr>
+                    <td>Frameworks</td>
+                    <td>Django, Flask</td>
+                </tr>
+                <tr>
+                    <td>Operating System</td>
+                    <td>Kali Linux OS</td>
+                </tr>
+                <tr>
+                    <td>Tools</td>
+                    <td>VS Code, Git/GitHub, MySQL.SQLite, Chrome/Firefox</td>
+                </tr>
+            </table>
+        <ol start="3">
+            <li>Infrastructure & Recourses</li>
+            <ol class="NOL">
+                <br>
+                <li>Laptops (Intel i5 or higher, 8GB RAM, 250GB SSD)</li>
+                <li>Kali Linux OS & Windows OS</li>
+                <li>USB Drivers (8GB)</li>
+                <li>Projector / Screen</li>
+                <li>Reliable Internet Connection</li>
+                <li>Microsoft Teams</li>
+                <li>Microsoft Office</li>
+            </ol>
+        </ol>
+        <h3 style="color: navy;">Support Requirements</h2>
+            <ul>
+                <li>Microsoft Teams & Office Licenses</li>
+                
+            </ul>
+    </div>
+    <footer>
+
+    </footer>
 </body>
 </html>
-
